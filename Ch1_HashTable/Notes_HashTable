@@ -1,0 +1,93 @@
+07/13/2014
+
+Video 1: What is a HashTable Data Structure- Introduction to Hash Tables
+Two components:
+	-key
+	-value/record
+
+Hash function:
+	Hash(key) -> array index
+
+Collision:
+	If returned values (index) are the same by Hash functions with 		different keys
+	Solution: chaining, etc.
+
+
+Video 2,3,4: Defining the Hash Function
+Hash function design:
+	index = sum((int)key[all i]) % tableSize
+
+c++:
+	(int)key[i]: cast string to int
+
+
+
+07/15/2014
+
+Video 5: Creating the Basic Structure of the Hash Table
+c++:
+	static const int tableSize = 10;
+	static: static initialization; shared by all instances of a given class
+	const: tells the compiler to not let anybody modify it
+	
+
+Video 6: Defining the Constructor
+c++:
+	HashTable[i] = new item;
+	new: new is the language construct that dynamically allocates memory from free store and initialises the memory using the constructor. A call to delete, which calls the destructor and return the memory allocated by new back to free store, must be made for every call to new to avoid a memory leak.
+	http://en.wikipedia.org/wiki/New_(C%2B%2B)
+
+
+Video 7: Add Item Function
+
+
+
+07/16/2014
+
+Video 8: Defining the Number of Items Helper Function
+
+Video 9: Print Table Function
+
+Video 10: Initial Test of Hash Class
+
+Video 11: Digging Depper Into the Buckets
+
+Video 12: Modifying Some Values of the Hash Table
+
+
+
+07/17/2014
+
+Video 13: Searching for a key
+
+Video 14, 15, 16, 17, 18, 19: Remove Item Function
+c++:
+	delete delPtr: Delete the allocated memory delPtr points to, which is HashTable[index]
+	
+
+
+
+07/23/2014
+
+Video: How to use HashMaps in Java
+https://www.youtube.com/watch?v=j442WG8YzM4
+Java:
+	HashMap<key type, value type>
+	xxx.put(key,value)
+	xxx.get(key)
+	xxx.containsKey(key)
+	xxx.containsValue(value)
+
+
+
+07/24/2014
+
+Video: How to use HashMaps in Java
+Java: 
+	HashMap
+	keySet()
+	values();
+	remove;
+	entrySet();
+
+

@@ -1,0 +1,8 @@
+07/26/2014
+
+Java:
+
+If the method of a class is non-static, in a static method like main() you need to create a instance of this class first and then call this method. Otherwise you need to change the called method to static.
+
+
+
