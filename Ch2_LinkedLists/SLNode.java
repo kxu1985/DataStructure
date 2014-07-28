@@ -1,5 +1,8 @@
 /*-----------------------
 * Single Link Node Class
+*
+* Ke Xu <kxu@clemson.edu>
+* 07/28/2014
 ------------------------*/
 
 public class SLNode
@@ -47,9 +50,9 @@ public class SLNode
 	{
         SLNode head = new SLNode(4);
         head.add(8); 
-        head.print(head);
+        //head.print(head);
 
         head.add(15);
-        head.print(head);
+        //head.print(head);
 	}
 }
