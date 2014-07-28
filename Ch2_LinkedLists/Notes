@@ -1,0 +1,25 @@
+07/28/2014
+
+Singly Linked List:
+    Add a node == append a node to the tail
+    Pseudo code:
+        Node end = new Node(data);
+        Node n = this;
+        while (n.next != null) n = n.next;
+        n.next = end
+
+    Print the list: the trick is to print the tail node
+    Pseudo code:
+        int index = 0
+        while (current.next != null)
+        {
+            index = index + 1;
+            print current node;
+            current = current.next;
+        }
+        if (current.next == null) 
+        // include the cases of both one-node list and ending node 
+        {
+            index = index + 1;
+            print current node;
+        }
