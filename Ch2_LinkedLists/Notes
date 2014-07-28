@@ -23,3 +23,14 @@ Singly Linked List:
             index = index + 1;
             print current node;
         }
+
+    Delete a node: Two cases-1. remove the head 2. remove not the head
+
+    Java manipulates objectts by references, but it passes object references to methods
+    by value (just copies). As a result, you cannot write a standard swap method to swap 
+    objects. For a swap to succeed outside of the method call, we need to swap the original
+    references, not the copies.
+    Ref:
+    http://www.javaworld.com/article/2077424/learn-java/does-java-pass-by-reference-or-pass-by-value.html
+
+

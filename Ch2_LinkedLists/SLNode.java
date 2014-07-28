@@ -45,6 +45,27 @@ public class SLNode
         }
     }
 
+    // Delete a node
+    SLNode delete(SLNode head, int d)
+    {
+        SLNode n = head;
+        
+        // if the node is the head
+        if (n.data == d)
+            return n.next;
+        
+        // if the node is not head
+        while (n.next != null)
+        {
+            if (n.next.data == d)
+            {
+                n.next = n.next.next;
+                return head;
+            }
+            n = n.next;
+        }
+        return head;
+    }
 
 	public static void main(String[] args)
 	{
@@ -54,5 +75,8 @@ public class SLNode
 
         head.add(15);
         //head.print(head);
+
+        head = head.delete(head, 4);
+        head.print(head);
 	}
 }
