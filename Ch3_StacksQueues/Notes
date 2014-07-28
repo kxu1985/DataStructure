@@ -1,3 +1,14 @@
 07/28/2014
 
+Stack and Queue:
+
+    If implement using singly linked list:
+
+    Difference:
+        Stack: only needs one reference pointing to the top
+        Queue: needs two references- one points to the first and the other points to the last
+
+    Common:
+        For incoming a new item (Push for Stack and Enqueue for Queue) no return value;
+        For outgoing an item (Pop for Stack and Dequeue for Queue) need to return the Node Object;
 
