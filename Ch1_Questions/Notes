@@ -13,3 +13,5 @@ Java:
     char array we need to use System.arraycopy().
 
     Q5. If a string needs to be changed, use StringBuffer
+
+    Q6. print without a line: System.out.print()
