@@ -19,3 +19,6 @@ Java:
     Q7. two dimentional matrix: int[][] matrix
         row length: matrix.length
         column length: matrix[0].length
+
+    Q8. concatenate two strings: s1 + s2
+        check is s1 contains s2 (substring): s1.contains(s2)
