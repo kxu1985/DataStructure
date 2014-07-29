@@ -1,0 +1,7 @@
+07/29/2014
+Java:
+    main() can directly call static method of the class
+
+    Two ways to check permutation:
+    1. sort and then compare string.equals
+    2. compare the number of letters
