@@ -5,3 +5,9 @@ Java:
     Two ways to check permutation:
     1. sort and then compare string.equals
     2. compare the number of letters
+
+    String is immutable, which means you cannot change the Object created in place
+    Ref: http://java.dzone.com/articles/why-string-immutable-java
+    Q4. needs to implement using char array.
+    The other thing is str.toCharArray() creates a new Object so if we want to copy
+    char array we need to use System.arraycopy().
