@@ -15,3 +15,7 @@ Java:
     Q5. If a string needs to be changed, use StringBuffer
 
     Q6. print without a line: System.out.print()
+
+    Q7. two dimentional matrix: int[][] matrix
+        row length: matrix.length
+        column length: matrix[0].length
