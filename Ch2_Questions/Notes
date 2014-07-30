@@ -5,3 +5,6 @@ Java:
     Q1: HashTable is a collection, not taken primitive type when defining it.
         Reference type must be used. For example: Hashtable<Integer, Boolean>
         Wrong usage: Hashtable<int, boolean>
+
+    Q2: search a singly linked list:
+        iterative solution: using 2 pointers O(n) time and O(1) space
