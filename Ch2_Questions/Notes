@@ -8,3 +8,10 @@ Java:
 
     Q2: search a singly linked list:
         iterative solution: using 2 pointers O(n) time and O(1) space
+
+    Q3: given the node, detele it in a singly linked list
+        Actally copy the next node to the current node and point current node.next
+        to node.next.next
+
+    Q5: Use reverse order to add a linked list (each element represents a digit)
+        If forward order, reverse the linked list first and add
