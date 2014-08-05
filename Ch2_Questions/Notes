@@ -18,3 +18,12 @@ Java:
 
     Q6: Step 1: Find the collision point
         Step 2: Find the loop starting point
+
+
+
+
+08/05/2014
+
+		Q7: Check palindrome: reverse the linked list and compare to the
+				original list (only half is fine)
+				reverse the linked list: use Stack
