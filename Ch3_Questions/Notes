@@ -1,0 +1,15 @@
+08/06/2014
+
+Exceptions:
+	Three types:
+	1. Checked exception
+	2. Error (unchecked)
+	3. Runtime exception (unchecked)
+	Checked exception in Java is all those exception which requies being
+	caught and handled during COMPILE TIME. If Compiler does not see try
+	or catch block handling a Checked Exception, it throws Compilation 
+	error.
+
+Exceptions handler:
+	try-catch-finally
+	try-with-resources
