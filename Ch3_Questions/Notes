@@ -22,3 +22,8 @@ Inheritance:
 	"extends"
 
 
+
+08/11/0214
+
+LinkedList:
+	poll(): retrieve and removes the head of this list (oldest)
